@@ -28,4 +28,8 @@ class Sight {
             viewbox: '0 0 ${width} ${height}',
         }).append(selector)
     }
+
+    draw(type,attrs){
+        return new SVGElement(type).attr(attrs).append(this.svg);
+    }
 }
