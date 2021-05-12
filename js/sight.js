@@ -1,4 +1,4 @@
-lass SVGElement {
+class SVGElement {
     constructor(type) {
       this.type = type;
       this.namespace = 'http://www.w3.org/2000/svg';
@@ -18,7 +18,7 @@ lass SVGElement {
       parent.appendChild(this.node);
       return this;
     }
-  }
+  };
   
   class Sight {
     constructor(selector, width, height) {
